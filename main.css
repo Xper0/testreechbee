@@ -1,0 +1,583 @@
+.header{
+    width: 998px;
+    display: flex;
+}
+.logodiv{
+    margin: 24.26px 0 0 101.19px;
+}
+.img{
+    margin-left: 133.76px;
+}
+
+.logo a{
+    width: 103.96px;
+    height: 29.11px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24.1183px;
+    line-height: 29px;
+    /* identical to box height */
+    text-align: center;
+    color: #222222;
+    text-decoration: none;
+}
+
+.menu {
+    margin-top: 33px;
+    margin-left: 63.11px;
+    width: 286px;
+    height: 13px;
+}
+.link{
+    display: flex;
+
+
+}
+.link li{
+   list-style-type: none;
+
+}
+.link-a{
+    margin-left: 27px;
+    font-weight: 600;
+    font-size: 11.0889px;
+    line-height: 13px;
+
+}
+.link li a{
+
+    color: #73738D;
+    text-decoration: none;
+}
+.link li:hover{
+    transform: scale(1.2);
+    color: black;
+}
+.link li a:hover{
+    color: black;
+}
+
+.Registration{
+    cursor: pointer;
+    margin-top: 23.56px;
+    margin-left: 52px;
+    width: 118.51px;
+    height: 31.88px;
+    border: 1.03958px solid #1943EF;
+    box-sizing: border-box;
+    border-radius: 33.9597px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11.0889px;
+    line-height: 13px;
+    color: #1943EF;
+    outline: none;
+
+
+}
+.Registration a{
+    text-decoration: none;
+}
+
+.Registration:hover{
+    background-color: #fdfd9f;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.conteiner{
+    border: 1px solid black;
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 998px;
+    min-height: 1777px;
+    background: #FFFFFF;
+}
+@font-face {
+    font-family: Gilroy;
+}
+
+
+.content{
+    margin-left: 101.19px;
+}
+.info{
+    display: flex;
+
+
+}
+.info2{
+    margin-top: 64.56px;
+    margin-left: 123.81px;
+    position: relative;
+}
+.info1{
+    position: relative;
+}
+.imgH1{
+    position: absolute;
+    top: 140px;
+    left: -12px;
+
+}
+.contextH1{
+    position: relative;
+    margin-top: 144.16px;
+    width: 429px;
+    height: 97.03px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40.1972px;
+    line-height: 49px;
+
+    color: #222222;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.contextP{
+    margin-top: 16.63px;
+    width: 429px;
+    height: 66.53px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.5542px;
+    line-height: 150%;
+    /* or 22px */
+
+    color: #73738D;
+
+}
+.form{
+    position: relative;
+}
+input{
+    margin-top: 20.79px;
+    position: relative;
+    width: 423.46px;
+    height: 41.58px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11.0889px;
+    line-height: 150%;
+    /* identical to box height, or 17px */
+    padding: 0 0 0 15px;
+    color: rgba(115, 115, 141, 0.6);
+    outline: none;
+}
+.contBtn{
+    position: absolute;
+    top: 23px;
+    left: 285px;
+    width: 155.94px;
+    height: 41.58px;
+    background: #1943EF;
+    border-radius: 33.9597px;
+    filter: drop-shadow(0px 2.77222px 27.7222px rgba(0, 0, 0, 0.04));
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11.0889px;
+    line-height: 13px;
+    /* identical to box height */
+    outline: none;
+
+    color: #FFFFFF;
+
+}
+
+.contBtn:hover{
+    background: #26C296;
+}
+.pic1{
+    position: relative;
+    z-index: 3;
+
+}
+.pic2{
+    position: absolute;
+    left: 16px;
+    top: 15px;
+    z-index: 1;
+}
+.pic3{
+    position: absolute;
+    left: 217px;
+    top: 426px;
+    z-index: 1;
+
+
+}
+.circle2{
+    position: absolute;
+    bottom: -6px;
+    left: -101px;
+}
+.circle4{
+    position: absolute;
+    top: -6px;
+    left: -32px;
+    z-index: 3;
+}
+.test{
+    z-index: 4;
+}
+
+
+.groupAll{
+    display: flex;
+
+}
+.group{
+    margin-left: 18px;
+    list-style-type: none;
+    ont-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11.0889px;
+    line-height: 150%;
+    /* identical to box height, or 17px */
+    color: #73738D;
+
+}
+.groupAll{
+    margin-top: 20.1px;
+}
+
+.blok2{
+    position: relative;
+    margin-top: 237.18px ;
+    text-align: center;
+
+}
+.absolute{
+    position: absolute;
+    top: -60px;
+    left: 190px;
+
+}
+.absolute1{
+    position: absolute;
+    top: -53px;
+    left: -118px;
+}
+.absolute2{
+    position: absolute;
+    top: -120px;
+    left: -230px;
+}
+.absolute3{
+    position: absolute;
+    top: 151px;
+    left: -298px;
+}
+.absolute4{
+    position: absolute;
+    top: -81px;
+    left: 520px
+}
+.absolute5{
+    position: absolute;
+    top: -137px;
+    left: 652px;
+}
+.absolute6{
+    position: absolute;
+    top: 98px;
+    left: 606px;
+}
+
+
+.blok2 h1{
+
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24.95px;
+    line-height: 30px;
+    text-align: center;
+    color: #222222;
+
+}
+
+/* Собственно сам слайдер */
+.slider{
+    margin: 93.83px auto auto auto;
+    width: 501.77px;
+    height: 301.48px;
+    position: relative;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0px 13.8611px 55.4444px #F2F5FA;
+    border-radius: 8.31667px;
+    z-index: 2;
+}
+
+/* Кнопки вперед и назад */
+.slider .prev, .slider .next {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+.slider .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+/* При наведении на кнопки добавляем фон кнопок */
+.slider .prev:hover,
+.slider .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+/* Заголовок слайда */
+.slideText {
+    position: absolute;
+    color: #fff;
+    font-size: 35px;
+    /* Выравнивание текста по горизонтали и по вертикали*/
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* Тень*/
+    text-shadow: 1px 1px 1px #000, 0 0 1em #000;
+}
+/* Кружочки */
+.slider-dots {
+    text-align: center;
+}
+.slider-dots_item{
+    margin-top: 33.27px;
+    cursor: pointer;
+    width: 5.54px;
+    height: 5.54px;
+    margin: 0 2px;
+    background: #DBE5F1;
+    border-radius: 47.8208px;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active,
+.slider-dots_item:hover {
+    width: 16.63px;
+    height: 5.54px;
+    background: #26C296;
+    border-radius: 47.8208px;
+}
+/* Анимация слайдов */
+.slider .item {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+.item h3{
+    padding-top: 59.6px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14.5542px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #222222;
+}
+.color{
+    margin-top: 16.63px;
+    color: #26C296;
+}
+.item p{
+    margin-top: 8.32px;
+    margin-left: 24.95px;
+    margin-bottom: 16.63px;
+    font-family: Gilroy;
+    width: 451.87px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.5542px;
+    line-height: 150%;
+    /* or 22px */
+
+    text-align: center;
+
+    color: #73738D;
+
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+.kvadro2{
+    position: absolute;
+    bottom: -21px;
+    right: -8px;
+    z-index: 0;
+
+}
+
+.blok3{
+    display: flex;
+    margin-top: 121.98px;
+    width: 792.86px;
+    height: 123.36px;
+    background: #FFFFFF;
+    box-shadow: 0px 13.8611px 55.4444px #F2F5FA;
+    border-radius: 8.31667px;
+    z-index: 5;
+    position: relative;
+
+}
+.b3text{
+    margin-left: 22.18px;
+
+}
+.b3text h1{
+   margin: 34.65px 0 5.54px 0;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24.95px;
+    line-height: 30px;
+    /* identical to box height */
+    color: #222222;
+
+}
+.b3text p{
+    ont-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11.0889px;
+    line-height: 150%;
+    /* identical to box height, or 17px */
+    color: #73738D;
+
+}
+
+
+.b3btn{
+    margin: 40.89px 0 0 133.76px;
+
+}
+
+.contBtn1{
+    cursor: pointer;
+    outline: none;
+    width: 155.94px;
+    height: 41.58px;
+    background: #26C296;
+    border-radius: 33.9597px;
+    filter: drop-shadow(0px 2.77222px 27.7222px rgba(0, 0, 0, 0.04));
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11.0889px;
+    line-height: 13px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+}
+.contBtn1:hover{
+    background: yellow;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    gap: 1px 1px;
+    margin: 69.31px 111.96px 0 115.36px;
+}
+
+.grid-text{
+    position: relative;
+    min-width: 99.11px;
+    height: 119.9px;
+
+}
+.grid-text h1{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16.6333px;
+    line-height: 13px;
+    /* identical to box height, or 79% */
+    align-items: center;
+
+    color: #222222;
+}
+.grid-text ul{
+    margin-top: 16.63px;
+}
+.grid-text li{
+    margin-top: 12.48px;
+    list-style-type: none;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11.0889px;
+    line-height: 13px;
+    color: #73738D;
+
+}
+
+.footerLasttext{
+    margin-top: 83.17px;
+    text-align: center;
+}
+
+
+.footerLasttext h1{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16.6531px;
+    line-height: 20px;
+    /* identical to box height */
+    text-align: center;
+    color: #222222;
+
+}
+.circle5{
+    position: absolute;
+    bottom: -57px;
+    left: 222px;
+}
+
+.footerLasttext p{
+    margin-top: 16.63px;
+    margin-bottom: 31.27px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11.0889px;
+    line-height: 13px;
+    text-align: center;
+    color: #73738D;
+}
